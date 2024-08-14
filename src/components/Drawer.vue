@@ -34,6 +34,20 @@
           </v-list-item-title>
         </v-list-item-content>
       </v-list-item>
+      <v-list-item
+        link
+        color="primary"
+         :to="'/pedidos'"
+        :class="{ 'active-page': $route.path === '/pedidos' }"
+      >
+        <v-list-item-content >
+          <v-list-item-title class="list-item-title">
+            <v-icon small>fa-solid fa-book</v-icon>
+            Pedido de Livro
+          </v-list-item-title>
+        </v-list-item-content>
+        <v-icon class="list-item-arrow">mdi-chevron-right</v-icon>
+      </v-list-item>
 
       <v-list-item link>
         <v-list-item-content>
@@ -155,19 +169,6 @@
             ><img src="/img/marketing.png" alt="" />
             Marketing</v-list-item-title
           >
-        </v-list-item-content>
-        <v-icon class="list-item-arrow">mdi-chevron-right</v-icon>
-      </v-list-item>
-      <v-list-item
-        link
-         :to="'/pedidos'"
-        :class="{ 'active-page': $route.path === '/pedidos' }"
-      >
-        <v-list-item-content>
-          <v-list-item-title class="list-item-title">
-            <img src="/img/pedido.png" alt="" />
-            Pedido de Livro
-          </v-list-item-title>
         </v-list-item-content>
         <v-icon class="list-item-arrow">mdi-chevron-right</v-icon>
       </v-list-item>
