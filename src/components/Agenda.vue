@@ -42,7 +42,7 @@ export default class Agenda extends Vue {
 
 <style scoped>
 .rounded-card {
-  border-radius: 20px;
+  border-radius: 20px !important;
   width: 100%;
   height: 250px;
 }

@@ -5,7 +5,7 @@ import Drawer from "./components/Drawer.vue";
 
 <template>
   <main class="d-flex flex-row p-0">
-    <Drawer />
+    <Drawer style="margin-top: 20px;" />
     <RouterView style="margin-left: 30px" />
   </main>
 </template>

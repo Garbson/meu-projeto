@@ -33,7 +33,7 @@
   
   <style scoped>
   .rounded-card {
-    border-radius: 20px;
+    border-radius: 20px !important;
   }
   .v-card__subtitle, .v-card__text, .v-card__title {
     padding: 0px !important;

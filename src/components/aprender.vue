@@ -68,8 +68,8 @@
   
   <style scoped>
   .rounded-card {
-    border-radius: 20px;
     background-color: white;
+    border-radius: 20px !important;
 
   }
   .v-card__subtitle,

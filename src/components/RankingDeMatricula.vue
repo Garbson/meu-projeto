@@ -157,6 +157,10 @@ export default class RankingDeMatricula extends Vue {
   padding: 10px;
 }
 
+.rounded-card {
+    border-radius: 20px !important;
+  }
+
 .icon-small {
   font-size: 16px;
 }

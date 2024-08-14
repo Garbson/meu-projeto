@@ -10,7 +10,8 @@
               alt="Imagem da Itália"
               width="100%"
               height="250px"
-              class="mb-4 rounded"
+              class="mb-4"
+              style=" border-radius: 20px !important;"
             />
           </v-col>
 

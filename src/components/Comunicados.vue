@@ -67,7 +67,10 @@
     border-radius: 20px;
     width: 100%;
     height: 250px;
+    border-radius: 20px !important;
   }
+
+  
   
   .titulo {
     font-family: 'Articulat CF', sans-serif;

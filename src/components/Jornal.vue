@@ -2,7 +2,7 @@
   <v-card class="jornal-card rounded-card pa-2 mb-1">
     <v-card-title class="d-flex align-center">
       <span class="text-subtitle2 d-flex align-center">
-        <v-icon  left>mdi-newspaper</v-icon>
+        <v-icon left>mdi-newspaper</v-icon>
         <span class="titulo section-header"
           ><strong>The Journey</strong> | Publicações & Podcasts
         </span>
@@ -61,6 +61,7 @@ export default class Jornal extends Vue {}
 .rounded-card {
   border-radius: 8px;
   background-color: white;
+  border-radius: 20px !important;
 }
 
 .titulo {
@@ -146,7 +147,7 @@ export default class Jornal extends Vue {}
   color: #a2afbd;
 }
 
-.icon-small{
+.icon-small {
   font-size: 15px !important;
 }
 </style>

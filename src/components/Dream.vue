@@ -53,6 +53,7 @@ export default class NewsContainer extends Vue {}
 .rounded-card {
   border-radius: 8px;
   background-color: white;
+  border-radius: 20px !important;
 }
 .v-icon {
   font-size: 15px !important;

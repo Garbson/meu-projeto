@@ -149,7 +149,7 @@ export default class NovosTreinamentosCard extends Vue {}
 
 <style scoped>
 .rounded-card {
-  border-radius: 8px;
+  border-radius: 20px !important;
   background-color: white;
   width: 100% !important;
   height: 250px;
